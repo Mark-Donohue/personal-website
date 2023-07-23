@@ -30,6 +30,7 @@ const Navigation = () => {
   return (
     <header className="w-full mx-auto px-4 sm:px-8 bg-[#F8F8F7] shadow fixed top-0 z-50">
       <div className="justify-between md:items-center md:flex">
+        {/* Logo and Side Menu */}
         <div>
           <div className="flex items-center justify-between py-2 md:block">
             <div className="md:py-5 md:block">
@@ -43,6 +44,7 @@ const Navigation = () => {
           </div>
         </div>
 
+        {/* Menu Links */}
         <div>
           <div
             className={`flex-1 justify-self-center pb-3 mt-4 md:block md:pb-0 md:mt-0 ${
@@ -62,7 +64,9 @@ const Navigation = () => {
                     offset={-100}
                     duration={500}
                     onClick={() => setSideMenu(!sideMenu)}
-                  >{navItem.label}</Link>
+                  >
+                    {navItem.label}
+                  </Link>
                 );
               })}
             </div>
