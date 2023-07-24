@@ -1,9 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Ubuntu } from "next/font/google";
+
 import Navigation from "@/components/Navigation";
 
-const fontFamily = Ubuntu({ weight: ["400"], subsets: ["latin"] });
+const font = Ubuntu({ weight: ["400"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mark Donohue",
@@ -17,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={fontFamily.className}>
+      <body className={font.className}>
         <Navigation />
         {children}
       </body>
