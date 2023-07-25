@@ -33,7 +33,7 @@ const Navigation = () => {
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
 
   return (
-    <header className="w-full mx-auto px-4 sm:px-8 shadow fixed top-0 z-50">
+    <header className="w-full mx-auto px-4 sm:px-8 bg-[#F8F8F7] shadow fixed top-0 z-50">
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-2 md:block">
