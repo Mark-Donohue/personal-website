@@ -36,7 +36,7 @@ const Hero = () => {
           </p>
           <Link
             to=""
-            className="rounded-md text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#167BFF] hover:bg-[#136EE5]"
+            className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#167BFF] hover:bg-[#136EE5] hover:cursor-pointer"
             activeClass="active"
             spy={true}
             smooth={true}
