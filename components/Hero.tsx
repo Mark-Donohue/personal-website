@@ -7,7 +7,7 @@ import { Link } from "react-scroll/modules";
 const Hero = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center my-10 py-16 md:flex-row md:space-x-4 md:text-left md:py-52 xsm:py-100">
+      <div className="flex flex-col text-center items-center justify-center my-10 py-20 md:flex-row md:space-x-2 md:text-left md:py-52">
         <div className="md:w-1/2 md:mt-2">
           <Image
             className="rounded-full"
@@ -17,8 +17,8 @@ const Hero = () => {
             height={300}
           />
         </div>
-        <div className="md:w-3/5 md:mt-6">
-          <h1 className="font-bold text-4xl mt-2 md:text-5xl md:mt-6 sm:mt-2">
+        <div className="md:w-4/5 md:mt-6">
+          <h1 className="font-bold text-4xl mt-2 md:text-5xl md:mt-6">
             Hi, I&apos;m Mark
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-1xl">
