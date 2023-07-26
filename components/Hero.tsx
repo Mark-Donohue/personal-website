@@ -7,8 +7,8 @@ import { Link } from "react-scroll/modules";
 const Hero = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center my-10 py-16">
-        <div>
+      <div className="flex flex-col text-center items-center justify-center my-10 py-16 md:flex-row md:space-x-4 md:text-left md:py-52 xsm:py-100">
+        <div className="md:w-1/2 md:mt-2">
           <Image
             className="rounded-full"
             src="/headshot.jpg"
@@ -17,12 +17,12 @@ const Hero = () => {
             height={300}
           />
         </div>
-        <div>
-          <h1 className="font-bold text-4xl mt-6">
-            Hi, I&apos;m <span className="text-[#167BFF]">Mark</span>
+        <div className="md:w-3/5 md:mt-6">
+          <h1 className="font-bold text-4xl mt-2 md:text-5xl md:mt-6 sm:mt-2">
+            Hi, I&apos;m Mark
           </h1>
-          <p className="text-lg mt-4 mb-6">
-            I&apos;m a Software Engineer based in New York City. Currently,
+          <p className="text-lg mt-4 mb-6 md:text-1xl">
+            I&apos;m a software engineer based in New York City. Currently,
             I&apos;m focused on designing and building efficient and secure APIs
             at{" "}
             <a
@@ -33,6 +33,7 @@ const Hero = () => {
             >
               Mediaocean
             </a>
+            . Please feel free to reach out!
           </p>
           <Link
             to=""
