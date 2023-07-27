@@ -1,6 +1,5 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Noto_Sans } from "next/font/google";
 import { Inter }  from "next/font/google";
 
 import Navigation from "@/components/Navigation";
