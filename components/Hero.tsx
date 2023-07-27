@@ -13,12 +13,12 @@ const Hero = () => {
             className="rounded-full"
             src="/Headshot.jpg"
             alt=""
-            quality={95}
+            quality={100}
             width={315}
             height={315}
           />
         </div>
-        <div className="md:w-4/5 md:mt-6">
+        <div className="md:w-4/5 md:mt-6 mt-6">
           <h1 className="font-bold text-4xl mt-2 md:text-5xl md:mt-6">
             Hi, I&apos;m Mark
           </h1>
