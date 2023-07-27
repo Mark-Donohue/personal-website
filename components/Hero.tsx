@@ -20,10 +20,10 @@ const Hero = () => {
           />
         </div>
         <div className="md:w-4/5 md:mt-2">
-          <h1 className="font-bold text-4xl mt-2 md:text-5xl md:mt-6">
+          <h1 className="font-bold text-4xl mt-9 md:text-5xl md:mt-6">
             Hi, I&apos;m Mark
           </h1>
-          <p className="text-lg mt-4 mb-6 md:text-1xl">
+          <p className="text-lg mt-2 mb-6">
             I&apos;m a software engineer based in New York City. Currently,
             I&apos;m focused on designing and building efficient and secure APIs
             at{" "}

@@ -1,10 +1,11 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Ubuntu } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
+import { Inter }  from "next/font/google";
 
 import Navigation from "@/components/Navigation";
 
-const font = Ubuntu({ weight: ["400"], subsets: ["latin"] });
+const font = Inter({ weight: ["400"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mark Donohue",
