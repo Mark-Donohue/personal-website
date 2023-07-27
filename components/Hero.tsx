@@ -7,14 +7,15 @@ import { Link } from "react-scroll/modules";
 const Hero = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center my-10 py-20 md:flex-row md:space-x-2 md:text-left md:py-52">
+      <div className="flex flex-col text-center items-center justify-center md:flex-row md:space-x-2 md:text-left my-10 py-16 md:py-48 sm:py-32">
         <div className="md:w-1/2 md:mt-2">
           <Image
             className="rounded-full"
-            src="/headshot.jpg"
+            src="/Headshot.jpg"
             alt=""
-            width={300}
-            height={300}
+            quality={95}
+            width={315}
+            height={315}
           />
         </div>
         <div className="md:w-4/5 md:mt-6">
