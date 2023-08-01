@@ -8,7 +8,7 @@ import { IoArrowDown } from "react-icons/io5";
 const Hero = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate:fadeIn animation-delay-2 md:flex-row md:space-x-2 md:text-left my-10 py-16 md:pt-44 md:py-28 sm:py-14">
+      <div className="flex flex-col text-center items-center justify-center animate:fadeIn animation-delay-2 md:flex-row md:space-x-2 md:text-left my-10 py-16 md:pt-44 md:py-28">
         <div className="md:w-1/2 md:mt-2">
           <Image
             className="rounded-full"
@@ -50,7 +50,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>  
-      <div className="flex flex-row items-center text-center justify-center">
+      <div className="flex flex-row items-center text-center justify-center pb-20">
         <Link
           to="about"
           activeClass="active"

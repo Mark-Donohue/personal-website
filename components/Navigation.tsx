@@ -55,11 +55,11 @@ const Navigation = () => {
             }`}
           >
             <div className="items-center justify-center space-y-4 md:flex md:space-x-6 md:space-y-0">
-              {NAV_ITEMS.map((navItem, idx) => {
+              {NAV_ITEMS.map((navItem, index) => {
                 return (
                   <Link
                     className="block lg:inline-block uppercase hover:cursor-pointer hover:text-[#167BFF]"
-                    key={idx}
+                    key={index}
                     to={navItem.section}
                     activeClass="active"
                     spy={true}

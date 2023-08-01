@@ -2,26 +2,64 @@
 
 import React from "react";
 
+const TECHNOLOGIES = [
+  { name: "Kotlin" },
+  { name: "Java" },
+  { name: "Spring Boot" },
+  { name: "Python" },
+  { name: "TypeScript" },
+  { name: "Docker" },
+  { name: "Jenkins" },
+  { name: "Next.js" },
+  { name: "Tailwind CSS" },
+];
+
 const About = () => {
   return (
     <section id="about">
-      <div>
-        <h1 className="font-bold text-center">About Me</h1>
-        <div>
+      <div className="my-1 md:my-12 pb-10 md:pt-20 md:pb-48">
+        <h1 className="font-bold text-center text-4xl mb-6">
+          About Me
+          <hr className="w-10 h-1 mx-auto my-4 border-0 rounded-xl bg-[#167BFF] mb-2"></hr>
+        </h1>
+        <div className="flex flex-col space-y-6 items-stretch justify-center align-top text-center">
           <div>
             <p>
-              I am a highly motivated software engineer with over four years of
-              meaningful professional experience. I started learning 
+              Hello! I am a highly motivated software engineer with over four
+              years of meaningful professional experience.
             </p>
             <br />
             <p>
-              I graduated Washington and Lee University in 2019 with
-              degrees in Computer Science and German. 
+              I started learning programming at Washington and Lee University,
+              where I graduated in 2019 with degrees in Computer Science and
+              German. Since then, I&apos;ve had the privilege of working in
+              various companies and industries in both the United States and
+              Germany, which has given me a well-rounded perspective on software
+              development and its impact across different domains.
+            </p>
+            <br />
+            <p>
+              The majority of my experience has been tailored towards back-end
+              web development, where I&apos;ve produced high-quality, robust
+              code to meet an assortment of objectives and product requirements.
+              However, I&apos;m always willing to learn new technologies and
+              tackle challenging problems. Here&apos;s some technology that
+              I&apos;ve worked with recently:
             </p>
           </div>
           <div>
-            <h1></h1>
-            <p></p>
+            <div className="flex justify-between flex-wrap flex-row">
+              {TECHNOLOGIES.map((item, index) => {
+                return (
+                  <p
+                    key={index}
+                    className="bg-gray-300 text-gray-900 px-4 py-2 mt-2 mx-1 rounded-xl font-semibold hover:scale-110 ease-in duration-75"
+                  >
+                    {item.name}
+                  </p>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
