@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter }  from "next/font/google";
 
 import Header from "@/components/sections/Header";
+import Footer from "@/components/sections/Footer";
 
 const font = Inter({ weight: ["400"], subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={font.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -40,7 +40,7 @@ const Experience = () => {
         Experience
         <hr className="w-10 h-1 mx-auto my-4 border-0 rounded-xl bg-[#167BFF] md:mb-2"></hr>
       </h1>
-      <div className="flex flex-col space-y-12">
+      <div className="flex flex-col space-y-12 pb-4">
         {EXPERIENCES.map((item, index) => {
           return (
             <div key={index} className="flex flex-col">
