@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter }  from "next/font/google";
 
-import Navigation from "@/components/sections/Navigation";
+import Header from "@/components/sections/Header";
 
 const font = Inter({ weight: ["400"], subsets: ["latin"] });
 
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <Navigation />
+        <Header />
         {children}
       </body>
     </html>

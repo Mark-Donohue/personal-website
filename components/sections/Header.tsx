@@ -29,7 +29,7 @@ const NAV_ITEMS: Array<NavItem> = [
   }
 ];
 
-const Navigation = () => {
+const Header = () => {
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
 
   return (
@@ -80,4 +80,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Header;
