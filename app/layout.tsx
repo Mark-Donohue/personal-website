@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter }  from "next/font/google";
 
-import Navigation from "@/components/Navigation";
+import Navigation from "@/components/sections/Navigation";
 
 const font = Inter({ weight: ["400"], subsets: ["latin"] });
 
