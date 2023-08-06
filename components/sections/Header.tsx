@@ -21,7 +21,7 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Experience",
     section: "experience",
-  }
+  },
 ];
 
 const Header = () => {
@@ -72,7 +72,9 @@ const Header = () => {
                 rel="noreferrer"
                 target="_blank"
                 className="block lg:inline-block uppercase hover:cursor-pointer hover:text-[#167BFF]"
-              >Résumé</a>
+              >
+                Résumé
+              </a>
             </div>
           </div>
         </div>

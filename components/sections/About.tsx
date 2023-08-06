@@ -22,11 +22,11 @@ const About = () => {
           About Me
           <hr className="w-10 h-1 mx-auto my-4 border-0 rounded-xl bg-[#167BFF] mb-2"></hr>
         </h1>
-        <div className="flex flex-col space-y-6 items-stretch justify-center align-top text-center">
+        <div className="flex flex-col space-y-6 items-stretch justify-center align-top text-center text-gray-600">
           <div>
             <p>
-              Hello! I&apos;m a software engineer with over four
-              years of meaningful professional experience.
+              Hello! I&apos;m a software engineer with over four years of
+              meaningful professional experience.
             </p>
             <br />
             <p>
@@ -53,7 +53,7 @@ const About = () => {
                 return (
                   <p
                     key={index}
-                    className="bg-gray-300 text-gray-800 px-4 py-2 mt-2 mx-1 rounded-xl font-semibold hover:scale-110 ease-in duration-75"
+                    className="bg-gray-300 px-4 py-2 mt-2 mx-1 rounded-xl font-semibold hover:scale-110 ease-in duration-75"
                   >
                     {item.name}
                   </p>
