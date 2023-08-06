@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
 import { IoArrowDown } from "react-icons/io5";
+import { FaAngellist, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -37,19 +38,51 @@ const Hero = () => {
             </a>
             . Please feel free to reach out!
           </p>
-          <Link
-            to=""
-            className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#167BFF] hover:bg-[#136EE5] hover:cursor-pointer"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            GET IN TOUCH
-          </Link>
+          <div className="flex space-x-6 items-center md:justify-start justify-center flex-wrap">
+            <Link
+              to=""
+              className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#167BFF] hover:bg-[#136EE5] hover:cursor-pointer"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              GET IN TOUCH
+            </Link>
+            <a
+              href="https://github.com/Mark-Donohue"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FaGithub
+                className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
+                size={40}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/donohuem/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FaLinkedin
+                className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
+                size={40}
+              />
+            </a>
+            <a
+              href="https://wellfound.com/u/mark-donohue-11"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FaAngellist
+                className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
+                size={40}
+              />
+            </a>
+          </div>
         </div>
-      </div>  
+      </div>
       <div className="flex flex-row items-center text-center justify-center pb-20">
         <Link
           to="about"
@@ -59,7 +92,10 @@ const Hero = () => {
           offset={-100}
           duration={500}
         >
-          <IoArrowDown size={40} className="hover:cursor-pointer animate-bounce" />
+          <IoArrowDown
+            size={40}
+            className="hover:cursor-pointer animate-bounce"
+          />
         </Link>
       </div>
     </section>

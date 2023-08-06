@@ -40,12 +40,12 @@ const Experience = () => {
         Experience
         <hr className="w-10 h-1 mx-auto my-4 border-0 rounded-xl bg-[#167BFF] md:mb-2"></hr>
       </h1>
-      <div className="flex flex-col space-y-12 pb-4">
+      <div className="flex flex-col space-y-8 pb-4">
         {EXPERIENCES.map((item, index) => {
           return (
             <div key={index} className="flex flex-col">
               <Slide offset="-300px 0px -300px 0px">
-                <div className="shadow-lg rounded-xl md:mt-6 mt:2 box-border animate-cubicBezierSlide animation-delay-2">
+                <div className="shadow-lg rounded-xl md:mt-6 mt:2 box-border animate-cubicBezierSlide animation-delay-3">
                   <h1 className="text-2xl font-semibold mb-4 pl-4 pt-4">
                     {item.name}
                   </h1>
