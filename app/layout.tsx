@@ -9,7 +9,10 @@ const font = Noto_Sans({ weight: ["400"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mark Donohue",
-  description: "Created using Next.js and Tailwind CSS",
+  creator: "Mark Donohue",
+  viewport: "width=device-width",
+  description:
+    "Mark Donohue is a software engineer who builds exceptional products for the web.",
 };
 
 export default function RootLayout({
