@@ -40,17 +40,12 @@ const Hero = () => {
           </p>
           <div className="mx-auto flex flex-col md:flex-row items-center md:justify-start justify-center flex-wrap md:space-x-6">
             <div className="flex flex-row md:pb-0 pb-3">
-              <Link
-                to=""
+              <a
+                href="mailto:markbdonohue@gmail.com"
                 className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#167BFF] hover:bg-[#136EE5] hover:cursor-pointer"
-                activeClass="active"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
               >
                 GET IN TOUCH
-              </Link>
+              </a>
             </div>
             <div className="flex flex-row items-center justify-center space-x-2">
               <a
