@@ -24,7 +24,7 @@ const Hero = () => {
           <h1 className="font-bold text-4xl mt-9 md:text-5xl md:mt-6">
             Hi, I&apos;m Mark
           </h1>
-          <p className="text-lg mt-2 mb-6 text-gray-600">
+          <p className="text-lg mt-2 mb-4 text-gray-600 pl-1">
             I&apos;m a software engineer based in New York City. Currently,
             I&apos;m focused on designing and building efficient and secure APIs
             at{" "}

@@ -53,7 +53,7 @@ const About = () => {
                 return (
                   <p
                     key={index}
-                    className="bg-gray-300 px-4 py-2 mt-2 mx-1 rounded-xl font-semibold hover:scale-110 ease-in duration-75"
+                    className="bg-gray-300 text-neutral-900 px-4 py-2 mt-2 mx-1 rounded-xl font-semibold hover:scale-110 ease-in duration-75"
                   >
                     {item.name}
                   </p>
