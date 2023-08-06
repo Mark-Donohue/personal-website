@@ -10,26 +10,30 @@ const EXPERIENCES = [
   {
     name: "Mediaocean",
     description:
-      "Delivered high-quality production code across numerous APIs to meet evolving requirements of clients and stakeholders. Contributed extensively to connecting Mediaocean's ad serving technology with social media publishers.",
+      "Delivered high-quality production code across numerous APIs to meet evolving requirements of clients and stakeholders. Leveraged Flask and Python to implement key workflows between an internal API and Google Discover, enabling targeted ad serving on the social media platform and enhancing Mediaocean's product offering.",
     link: "https://www.mediaocean.com/",
+    dates: "Apr 2021 - Present"
   },
   {
     name: "Deutsche Bank",
     description:
-      "Developed a production REST API for sending HTML emails using Spring Boot and Kotlin, greatly expediting the financial research invoicing process. Implemented and improved UI components using Vue.js and Element",
+      "Developed a production REST API for sending HTML emails using Spring Boot and Kotlin, greatly expediting the financial research invoicing process. Implemented intuitive UI components with Vue.js and Element, contributing to an enhanced user experience.",
     link: "https://db.com",
+    dates: "Jul 2019 - Apr 2021"
   },
   {
     name: "AGCO",
     description:
-      "Led conversations with product owners and end users to discuss business requirements, often exclusively in German, resulting in timely and accurate delivery of software changes.",
+      "Led conversations with product owners and end users to discuss business requirements, often exclusively in German, resulting in timely and accurate delivery of software changes. Created interactive business intelligence reports with Tableau that were delivered to key stakeholders.",
     link: "https://www.agcocorp.com/",
+    dates: "May 2018 - Aug 2018"
   },
   {
     name: "Tapestry",
     description:
-      "Shadowed network engineers and specialists. Helped integrate a corporate acquisition with Tapestry's hybrid cloud network using SCP scripts.",
+      "Shadowed network engineers and specialists to learn firewall technologies and threat management. Helped integrate a corporate acquisition with Tapestry's hybrid cloud network using SCP scripts.",
     link: "https://www.tapestry.com/",
+    dates: "Jun 2017 - Aug 2017"
   },
 ];
 
@@ -46,17 +50,18 @@ const Experience = () => {
             <div key={index} className="flex flex-col">
               <Slide offset="-300px 0px -300px 0px">
                 <div className="shadow-lg rounded-xl md:mt-6 mt:2 box-border animate-cubicBezierSlide animation-delay-3">
-                  <h1 className="text-2xl font-semibold mb-4 pl-4 pt-4">
+                  <h1 className="text-2xl font-semibold mb-2 pl-4 pt-4">
                     {item.name}
                   </h1>
-                  <p className="leading-7 mb-4 px-4 text-gray-800">
+                  <p className="pl-4 pb-3 text-sm font-thin uppercase text-gray-600 align-middle"> {item.dates}</p>
+                  <p className="leading-7 mb-3 px-4 text-gray-600">
                     {item.description}
                   </p>
                   <div className="pl-4 pb-4">
                     <Link href={item.link} target="_blank">
                       <BsArrowUpRightSquare
                         size={20}
-                        className="hover:cursor-pointer hover:scale-110 ease-in duration-75"
+                        className="hover:cursor-pointer hover:scale-110 ease-in duration-75 text-[#167BFF]"
                       />
                     </Link>
                   </div>
