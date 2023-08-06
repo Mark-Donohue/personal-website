@@ -38,48 +38,52 @@ const Hero = () => {
             </a>
             . Please feel free to reach out!
           </p>
-          <div className="flex space-x-6 items-center md:justify-start justify-center flex-wrap">
-            <Link
-              to=""
-              className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#167BFF] hover:bg-[#136EE5] hover:cursor-pointer"
-              activeClass="active"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-            >
-              GET IN TOUCH
-            </Link>
-            <a
-              href="https://github.com/Mark-Donohue"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <FaGithub
-                className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
-                size={40}
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/donohuem/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <FaLinkedin
-                className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
-                size={40}
-              />
-            </a>
-            <a
-              href="https://wellfound.com/u/mark-donohue-11"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <FaAngellist
-                className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
-                size={40}
-              />
-            </a>
+          <div className="mx-auto flex flex-col md:flex-row items-center md:justify-start justify-center flex-wrap md:space-x-6">
+            <div className="flex flex-row md:pb-0 pb-3">
+              <Link
+                to=""
+                className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#167BFF] hover:bg-[#136EE5] hover:cursor-pointer"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                GET IN TOUCH
+              </Link>
+            </div>
+            <div className="flex flex-row items-center justify-center space-x-2">
+              <a
+                href="https://github.com/Mark-Donohue"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FaGithub
+                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
+                  size={40}
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/donohuem/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FaLinkedin
+                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
+                  size={40}
+                />
+              </a>
+              <a
+                href="https://wellfound.com/u/mark-donohue-11"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FaAngellist
+                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
+                  size={40}
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
