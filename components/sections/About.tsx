@@ -25,13 +25,13 @@ const About = () => {
         <div className="flex flex-col space-y-6 items-stretch justify-center align-top text-center">
           <div>
             <p>
-              Hello! I am a highly motivated software engineer with over four
+              Hello! I&apos;m a software engineer with over four
               years of meaningful professional experience.
             </p>
             <br />
             <p>
               I started learning programming at Washington and Lee University,
-              where I graduated in 2019 with BA degrees in Computer Science and
+              where I graduated in 2019 with degrees in Computer Science and
               German. Since then, I&apos;ve had the privilege of working in
               various companies and industries in both the United States and
               Germany, which has given me a well-rounded perspective on software
