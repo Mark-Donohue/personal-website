@@ -9,7 +9,7 @@ import { FaAngellist, FaGithub, FaLinkedin } from "react-icons/fa6";
 const Hero = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate:fadeIn animation-delay-2 md:flex-row md:space-x-2 md:text-left my-10 py-16 md:pt-44 md:py-28">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn md:flex-row md:space-x-2 md:text-left my-10 py-16 md:pt-44 md:py-28">
         <div className="md:w-1/2 md:mt-2">
           <Image
             className="rounded-full"
@@ -82,7 +82,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row items-center text-center justify-center pb-20">
+      <div className="flex flex-row items-center text-center justify-center pb-20 animate-fadeIn">
         <Link
           to="about"
           activeClass="active"
