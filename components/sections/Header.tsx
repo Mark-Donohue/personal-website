@@ -22,10 +22,6 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Experience",
     section: "experience",
-  },
-  {
-    label: "Résumé",
-    section: "Résumé"
   }
 ];
 
@@ -72,6 +68,12 @@ const Header = () => {
                   </Link>
                 );
               })}
+              <a
+                href="/Resume.pdf"
+                rel="noreferrer"
+                target="_blank"
+                className="block lg:inline-block uppercase hover:cursor-pointer hover:text-[#167BFF]"
+              >Résumé</a>
             </div>
           </div>
         </div>
