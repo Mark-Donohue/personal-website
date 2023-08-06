@@ -16,7 +16,7 @@ const Footer = () => {
             target="_blank"
           >
             <FaGithub
-              className="hover:scale-110 ease-in duration-75 cursor-pointer text-neutral-500"
+              className="hover:scale-125 ease-in duration-75 cursor-pointer text-neutral-500"
               size={24}
             />
           </a>
@@ -26,7 +26,7 @@ const Footer = () => {
             target="_blank"
           >
             <FaLinkedin
-              className="hover:scale-110 ease-in duration-75 cursor-pointer text-neutral-500"
+              className="hover:scale-125 ease-in duration-75 cursor-pointer text-neutral-500"
               size={24}
             />
           </a>
@@ -36,7 +36,7 @@ const Footer = () => {
             target="_blank"
           >
             <FaAngellist
-              className="hover:scale-110 ease-in duration-75 cursor-pointer text-neutral-500"
+              className="hover:scale-125 ease-in duration-75 cursor-pointer text-neutral-500"
               size={24}
             />
           </a>

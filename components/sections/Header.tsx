@@ -9,7 +9,6 @@ interface NavItem {
   section: string;
 }
 
-// Menu Options
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Home",
