@@ -68,7 +68,7 @@ const Header = () => {
                 );
               })}
               <a
-                href="/Resume.pdf"
+                href="/resume.pdf"
                 rel="noreferrer"
                 target="_blank"
                 className="block lg:inline-block uppercase hover:cursor-pointer hover:text-[#167BFF]"
