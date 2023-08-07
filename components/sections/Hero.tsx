@@ -93,7 +93,7 @@ const Hero = () => {
         >
           <IoArrowDown
             size={40}
-            className="hover:cursor-pointer animate-bounce"
+            className="hover:cursor-pointer animate-bounce rounded-full"
           />
         </Link>
       </div>

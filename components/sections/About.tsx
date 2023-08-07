@@ -17,7 +17,7 @@ const TECHNOLOGIES = [
 const About = () => {
   return (
     <section id="about">
-      <div className="my-1 md:my-12 pb-10 md:pt-20 md:pb-48">
+      <div className="my-1 md:my-12 pb-20 md:pt-20 md:pb-48">
         <h1 className="font-bold text-center text-4xl mb-6">
           About Me
           <hr className="w-10 h-1 mx-auto my-4 border-0 rounded-xl bg-[#167BFF] mb-2"></hr>

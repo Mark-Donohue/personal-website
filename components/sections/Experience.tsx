@@ -18,7 +18,7 @@ const EXPERIENCES = [
     name: "Deutsche Bank",
     description:
       "Developed a production REST API for sending HTML emails using Spring Boot and Kotlin, greatly expediting the financial research invoicing process. Implemented intuitive UI components with Vue.js and Element, contributing to an enhanced user experience.",
-    link: "https://db.com",
+    link: "https://www.db.com/index?language_id=1",
     dates: "Jul 2019 - Apr 2021",
   },
   {
