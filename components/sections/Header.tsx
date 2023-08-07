@@ -49,7 +49,7 @@ const Header = () => {
               isSideMenuOpen ? "block" : "hidden"
             }`}
           >
-            <div className="items-center justify-center space-y-4 md:flex md:space-x-6 md:space-y-0">
+            <div className="items-center justify-center space-y-4 md:flex md:space-x-6 md:space-y-0 text-lg">
               {NAV_ITEMS.map((navItem, index) => {
                 return (
                   <Link

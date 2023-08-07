@@ -21,21 +21,21 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/donohuem/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FaLinkedin
-              className="hover:scale-125 ease-in duration-75 cursor-pointer text-neutral-500"
-              size={24}
-            />
-          </a>
-          <a
             href="https://wellfound.com/u/mark-donohue-11"
             rel="noreferrer"
             target="_blank"
           >
             <FaAngellist
+              className="hover:scale-125 ease-in duration-75 cursor-pointer text-neutral-500"
+              size={24}
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/donohuem/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FaLinkedin
               className="hover:scale-125 ease-in duration-75 cursor-pointer text-neutral-500"
               size={24}
             />

@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="md:w-1/2 md:mt-2">
           <Image
             className="rounded-full"
-            src="/Headshot.jpg"
+            src={require("../../public/headshot.jpg")}
             alt=""
             quality={100}
             width={315}
@@ -59,21 +59,21 @@ const Hero = () => {
                 />
               </a>
               <a
-                href="https://www.linkedin.com/in/donohuem/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <FaLinkedin
-                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
-                  size={40}
-                />
-              </a>
-              <a
                 href="https://wellfound.com/u/mark-donohue-11"
                 rel="noreferrer"
                 target="_blank"
               >
                 <FaAngellist
+                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
+                  size={40}
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/donohuem/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FaLinkedin
                   className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
                   size={40}
                 />
