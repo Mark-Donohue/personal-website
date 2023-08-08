@@ -32,7 +32,7 @@ const Hero = () => {
               href="https://www.mediaocean.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#167BFF]"
+              className="text-[#008AD8]"
             >
               Mediaocean
             </a>
@@ -42,19 +42,20 @@ const Hero = () => {
             <div className="flex flex-row md:pb-0 pb-3">
               <a
                 href="mailto:markbdonohue@gmail.com"
-                className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#167BFF] hover:bg-[#136EE5] hover:cursor-pointer"
+                className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#008AD8] hover:bg-[#006199] hover:cursor-pointer"
               >
                 GET IN TOUCH
               </a>
             </div>
-            <div className="flex flex-row items-center justify-center space-x-2">
+
+            <div className="flex flex-row items-center justify-center space-x-2 pt-2 md:pt-0">
               <a
                 href="https://github.com/Mark-Donohue"
                 rel="noreferrer"
                 target="_blank"
               >
                 <FaGithub
-                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
+                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#008AD8]"
                   size={40}
                 />
               </a>
@@ -64,7 +65,7 @@ const Hero = () => {
                 target="_blank"
               >
                 <FaAngellist
-                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
+                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#008AD8]"
                   size={40}
                 />
               </a>
@@ -74,7 +75,7 @@ const Hero = () => {
                 target="_blank"
               >
                 <FaLinkedin
-                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
+                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#008AD8]"
                   size={40}
                 />
               </a>
@@ -82,6 +83,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
       <div className="flex flex-row items-center text-center justify-center pb-20 animate-fadeIn">
         <Link
           to="about"
