@@ -1,6 +1,6 @@
-# Personal Website
+# My Personal Website
 
-This is my personal SPA written using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) and deployed via [Vercel](https://vercel.com/home). 
+This is a SPA written using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) and deployed via [Vercel](https://vercel.com/home). 
 
 ## Running Locally
 
