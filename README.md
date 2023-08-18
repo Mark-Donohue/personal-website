@@ -16,6 +16,6 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Acknowledgment
+## Acknowledgments
 
-A big thank you to Hosna Qasmei for her Next.js guides!
+A big thank you to Hosna Qasmei and ByteGrad for their YoutTube guides!
