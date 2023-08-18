@@ -1,6 +1,6 @@
 # My Personal Website
 
-This is a SPA written using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) and deployed via [Vercel](https://vercel.com/home). 
+This is a SPA written using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/). It's deployed via [Vercel](https://vercel.com/home).
 
 ## Running Locally
 
@@ -18,4 +18,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Acknowledgments
 
-A big thank you to Hosna Qasmei and ByteGrad for their YoutTube guides!
+A big thank you to Hosna Qasmei and ByteGrad for their YouTube videos!
