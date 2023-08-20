@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useState } from "react";
-import { motion } from "framer-motion";
-import { NAV_ITEMS } from "@/lib/data";
+import React from "react";
 import Link from "next/link";
 import clsx from "clsx";
+import { motion } from "framer-motion";
+import { NAV_ITEMS } from "@/lib/data";
 import { useActiveSectionContext } from "@/components/contexts/active-section-context";
 
 const Header = () => {
