@@ -1,18 +1,19 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Noto_Sans } from "next/font/google";
+import ActiveSectionContextProvider from "@/components/contexts/active-section-context";
 
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
 
-const font = Noto_Sans({ weight: ["400"], subsets: ["latin"] });
+const globalFont = Noto_Sans({ weight: ["400"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mark Donohue",
   creator: "Mark Donohue",
   viewport: "width=device-width",
   description:
-    "Mark Donohue is a software engineer who builds exceptional products for the web.",
+    "Mark Donohue is a back-end API developer with over four years of experience.",
 };
 
 export default function RootLayout({
@@ -22,10 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={font.className}>
-        <Header />
-        {children}
-        <Footer />
+      <body className={`${globalFont.className} bg-slate-50 text-gray-950`}>
+        <ActiveSectionContextProvider>
+          <Header />
+          {children}
+          <Footer />
+        </ActiveSectionContextProvider>
       </body>
     </html>
   );
