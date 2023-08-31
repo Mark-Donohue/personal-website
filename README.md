@@ -1,6 +1,7 @@
 # My Personal Website
 
 This is a SPA written using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/). It's deployed via [Vercel](https://vercel.com/home).
+You can visit it live at https://markbdonohue.com/.
 
 ## Running Locally
 
