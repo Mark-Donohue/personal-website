@@ -39,12 +39,20 @@ const Hero = () => {
             . Please feel free to reach out!
           </p>
           <div className="mx-auto flex flex-col md:flex-row items-center md:justify-start justify-center flex-wrap md:space-x-6">
-            <div className="flex flex-row md:pb-0 pb-3">
+          <div className="flex flex-row md:pb-0 pb-3">
               <a
                 href="mailto:markbdonohue@gmail.com"
                 className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#008AD8] hover:bg-[#006199] hover:cursor-pointer"
               >
                 GET IN TOUCH
+              </a>
+            </div>
+          <div className="flex flex-row md:pb-0 pb-3">
+              <a
+                href="mailto:markbdonohue@gmail.com"
+                className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#008AD8] hover:bg-[#006199] hover:cursor-pointer"
+              >
+                       Résumé       
               </a>
             </div>
 
