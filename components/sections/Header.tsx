@@ -5,14 +5,14 @@ import Link from "next/link";
 import clsx from "clsx";
 import { motion } from "framer-motion";
 import { NAV_ITEMS } from "@/lib/data";
-import { useActiveSectionContext } from "@/components/contexts/active-section-context";
+import { useActiveSectionContext } from "@/components/contexts/ActiveSectionContext";
 
 const Header = () => {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
 
   return (
-    <header className="z-[999] relative">
+    <header className="z-[999] relative"> 
       <motion.div
         className="fixed top-0 left-1/2 h-[3.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[21rem] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
@@ -43,7 +43,6 @@ const Header = () => {
                 }}
               >
                 {navItem.label}
-
                 {navItem.label === activeSection && (
                   <motion.span
                     className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-800"

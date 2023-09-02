@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Noto_Sans } from "next/font/google";
-import ActiveSectionContextProvider from "@/components/contexts/active-section-context";
 
+import ActiveSectionContextProvider from "@/components/contexts/ActiveSectionContext";
 import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
 
@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${globalFont.className} bg-slate-50 text-gray-950`}>
+      <body className={`${globalFont.className} bg-[#F8F8F7] text-gray-950`}>
         <ActiveSectionContextProvider>
           <Header />
           {children}
