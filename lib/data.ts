@@ -52,6 +52,11 @@ export const NAV_ITEMS = [
     section: "experience",
     hash: "#experience",
   },
+  {
+    label: "Résumé",
+    section: "résumé",
+    hash: "#résumé",
+  },
 ] as const;
 
 export const SKILLS = [

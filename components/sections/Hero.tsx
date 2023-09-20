@@ -47,14 +47,6 @@ const Hero = () => {
                 GET IN TOUCH
               </a>
             </div>
-            <div className="flex flex-row md:pb-0 pb-3">
-              <a
-                href="mailto:markbdonohue@gmail.com"
-                className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#008AD8] hover:bg-[#006199] hover:cursor-pointer"
-              >
-                Résumé
-              </a>
-            </div>
 
             <div className="flex flex-row items-center justify-center space-x-2 pt-2 md:pt-0">
               <a

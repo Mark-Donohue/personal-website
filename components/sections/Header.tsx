@@ -1,64 +1,66 @@
 "use client";
 
-import React from "react";
-import Link from "next/link";
-import clsx from "clsx";
-import { motion } from "framer-motion";
+import React, { useState } from "react";
+import { Link } from "react-scroll/modules";
+import { IoMenu, IoClose } from "react-icons/io5";
+
 import { NAV_ITEMS } from "@/lib/data";
-import { useActiveSectionContext } from "@/components/contexts/ActiveSectionContext";
 
 const Header = () => {
-  const { activeSection, setActiveSection, setTimeOfLastClick } =
-    useActiveSectionContext();
+  const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
 
   return (
-    <header className="z-[999] relative"> 
-      <motion.div
-        className="fixed top-0 left-1/2 h-[3.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[21rem] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75"
-        initial={{ y: -100, x: "-50%", opacity: 0 }}
-        animate={{ y: 0, x: "-50%", opacity: 1 }}
-      ></motion.div>
+    <header className="w-full mx-auto px-4 sm:px-8 bg-[#F8F8F7] shadow fixed top-0 z-50">
+      <div className="justify-between md:items-center md:flex">
+        <div>
+          <div className="flex items-center justify-between py-2 md:block">
+            <div className="md:py-5 md:block">
+              <h2 className="text-2xl font-bold">Mark Donohue</h2>
+            </div>
+            <div className="md:hidden pt-3">
+              <button onClick={() => setIsSideMenuOpen(!isSideMenuOpen)}>
+                {isSideMenuOpen ? <IoClose size={36} /> : <IoMenu size={36} />}
+              </button>
+            </div>
+          </div>
+        </div>
 
-      <nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
-        <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-2">
-          {NAV_ITEMS.map((navItem) => (
-            <motion.li
-              className="h-3/4 flex items-center justify-center relative"
-              key={navItem.hash}
-              initial={{ y: -100, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-            >
-              <Link
-                className={clsx(
-                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-200 dark:hover:text-gray-300",
-                  {
-                    "text-gray-950 dark:text-gray-200":
-                      activeSection === navItem.label,
-                  }
-                )}
-                href={navItem.hash}
-                onClick={() => {
-                  setActiveSection(navItem.label);
-                  setTimeOfLastClick(Date.now());
-                }}
+        <div>
+          <div
+            className={`flex-1 justify-self-center pb-3 mt-4 md:block md:pb-0 md:mt-0 ${
+              isSideMenuOpen ? "block" : "hidden"
+            }`}
+          >
+            <div className="items-center justify-center space-y-4 md:flex md:space-x-6 md:space-y-0 text-lg">
+              {NAV_ITEMS.map((navItem, index) => {
+                return (
+                  <Link
+                    className="block lg:inline-block uppercase hover:cursor-pointer hover:text-[#008AD8]"
+                    key={index}
+                    to={navItem.section}
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                    onClick={() => setIsSideMenuOpen(!isSideMenuOpen)}
+                  >
+                    {navItem.label}
+                  </Link>
+                );
+              })}
+              <a
+                href="/resume.pdf"
+                rel="noreferrer"
+                target="_blank"
+                className="block lg:inline-block uppercase hover:cursor-pointer hover:text-[#008AD8]"
               >
-                {navItem.label}
-                {navItem.label === activeSection && (
-                  <motion.span
-                    className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-800"
-                    layoutId="activeSection"
-                    transition={{
-                      type: "spring",
-                      stiffness: 380,
-                      damping: 30,
-                    }}
-                  ></motion.span>
-                )}
-              </Link>
-            </motion.li>
-          ))}
-        </ul>
-      </nav>
+                Résumé
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
   );
 };
