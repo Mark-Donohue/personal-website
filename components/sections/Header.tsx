@@ -9,13 +9,13 @@ import { NAV_ITEMS } from "@/lib/data";
 const Header = () => {
   return (
     <header className="z-[999] relative">
-      <div className="fixed top-0 h-[4rem] w-full rounded-none border border-opacity-40 shadow-lg shadow-black/[0.03]">
-        <nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
-          <ul className="items-center justify-center flex-wrap flex-row sm:flex sm:space-x-6">
+      <div className="fixed top-0 h-[4.5rem] w-full rounded-none shadow-lg bg-[#F8F8F7]">
+        <nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 m:top-[1.7rem] sm:h-[initial] sm:py-0">
+          <ul className="flex flex-wrap justify-center items-center sm:gap-x-8 gap-x-4 gap-y-1 sm:w-[initial] sm:flex-nowrap sm:gap-5 py-2 sm:py-5">
             {NAV_ITEMS.map((navItem, index) => {
               return (
                 <Link
-                  className="uppercase hover:cursor-pointer hover:text-[#008AD8]"
+                  className="flex items-center uppercase hover:cursor-pointer hover:text-[#008AD8]"
                   key={index}
                   to={navItem.section}
                   activeClass="active"
