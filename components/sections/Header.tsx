@@ -53,7 +53,7 @@ const Header = () => {
               {NAV_ITEMS.map((navItem, index) => {
                 return (
                   <Link
-                    className="block lg:inline-block uppercase hover:cursor-pointer hover:text-[#008AD8]"
+                    className="block lg:inline-block uppercase hover:cursor-pointer hover:text-[#167BFF]"
                     key={index}
                     to={navItem.section}
                     activeClass="active"
@@ -71,7 +71,7 @@ const Header = () => {
                 href="/resume.pdf"
                 rel="noreferrer"
                 target="_blank"
-                className="block lg:inline-block uppercase hover:cursor-pointer hover:text-[#008AD8]"
+                className="block lg:inline-block uppercase hover:cursor-pointer hover:text-[#167BFF]"
               >
                 Résumé
               </a>

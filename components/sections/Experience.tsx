@@ -63,7 +63,7 @@ const Experience = () => {
                     <Link href={item.link} target="_blank">
                       <BsArrowUpRightSquare
                         size={30}
-                        className="hover:cursor-pointer hover:scale-125 ease-in duration-75 text-[#008AD8]"
+                        className="hover:cursor-pointer hover:scale-125 ease-in duration-75 text-[#167BFF]"
                       />
                     </Link>
                   </div>
