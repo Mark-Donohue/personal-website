@@ -8,6 +8,6 @@ html {
 
 @layer base {
   hr {
-    @apply bg-[#008AD8];
+    @apply bg-[#167BFF];
   }
 }

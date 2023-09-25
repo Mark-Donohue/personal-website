@@ -1,6 +1,7 @@
-# Personal Website
+# My Personal Website
 
-This is my personal SPA written using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) and deployed via [Vercel](https://vercel.com/home). 
+This is a SPA written using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/). It's deployed via [Vercel](https://vercel.com/home).
+You can visit it live at https://markbdonohue.com/.
 
 ## Running Locally
 
@@ -14,8 +15,8 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Acknowledgment
+## Acknowledgments
 
-A big thank you to Hosna Qasmei for her Next.js guides!
+A big thank you to Hosna Qasmei and ByteGrad for their YouTube videos!

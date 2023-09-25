@@ -32,7 +32,7 @@ const Hero = () => {
               href="https://www.mediaocean.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#008AD8]"
+              className="text-[#167BFF]"
             >
               Mediaocean
             </a>
@@ -42,7 +42,7 @@ const Hero = () => {
             <div className="flex flex-row md:pb-0 pb-3">
               <a
                 href="mailto:markbdonohue@gmail.com"
-                className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#008AD8] hover:bg-[#006199] hover:cursor-pointer"
+                className="rounded-lg text-neutral-100 uppercase font-semibold px-6 py-3 shadow bg-[#167BFF] hover:bg-[#167BFF] hover:cursor-pointer"
               >
                 GET IN TOUCH
               </a>
@@ -55,7 +55,7 @@ const Hero = () => {
                 target="_blank"
               >
                 <FaGithub
-                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#008AD8]"
+                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
                   size={40}
                 />
               </a>
@@ -65,7 +65,7 @@ const Hero = () => {
                 target="_blank"
               >
                 <FaAngellist
-                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#008AD8]"
+                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
                   size={40}
                 />
               </a>
@@ -75,7 +75,7 @@ const Hero = () => {
                 target="_blank"
               >
                 <FaLinkedin
-                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#008AD8]"
+                  className="hover:scale-125 ease-in duration-75 cursor-pointer text-[#167BFF]"
                   size={40}
                 />
               </a>

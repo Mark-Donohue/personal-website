@@ -20,7 +20,7 @@ const About = () => {
       <div className="my-1 md:my-12 pb-20 md:pt-20 md:pb-48">
         <h1 className="font-bold text-center text-4xl mb-6">
           About Me
-          <hr className="w-10 h-1 mx-auto my-4 border-0 rounded-xl bg-[#008AD8] mb-2"></hr>
+          <hr className="w-10 h-1 mx-auto my-4 border-0 rounded-xl bg-[#167BFF] mb-2"></hr>
         </h1>
         <div className="flex flex-col space-y-6 items-stretch justify-center align-top text-center text-gray-600">
           <div>
