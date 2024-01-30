@@ -10,8 +10,8 @@ const TECHNOLOGIES = [
   { name: "Flask" },
   { name: "Docker" },
   { name: "TypeScript" },
-  { name: "Next.js" },
-  { name: "Tailwind CSS" },
+  { name: "Node.js" },
+  { name: "Express" },
 ];
 
 const About = () => {
