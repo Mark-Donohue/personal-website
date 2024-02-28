@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
       <hr className="w-full h-1 mx-auto mt-8 bg-gray-300 border-0 rounded-xl mb-2"></hr>
       <div className="mx-auto flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
-        <div className="text-neutral-500 pb-2">© 2023 Mark Donohue</div>
+        <div className="text-neutral-500 pb-2">© 2024 Mark Donohue</div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-6">
           <a
             href="https://github.com/Mark-Donohue"

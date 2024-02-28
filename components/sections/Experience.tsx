@@ -10,7 +10,7 @@ const EXPERIENCES = [
   {
     name: "Mediaocean",
     description:
-      "Delivered high-quality production code across numerous APIs to meet evolving requirements of clients and stakeholders. Leveraged Flask and Python to implement key workflows between an internal API and Google Discover, enabling targeted ad serving on the social media platform and enhancing Mediaocean's product offering.",
+      "Delivered high-quality production code across numerous APIs to meet evolving requirements of clients and stakeholders. Leveraged Apollo GraphQL and Python to implement key workflows between an internal API and Google Discover, enabling targeted ad serving on the social media platform and enhancing Mediaocean's product offering.",
     link: "https://www.mediaocean.com/",
     dates: "Apr 2021 - Present",
   },
