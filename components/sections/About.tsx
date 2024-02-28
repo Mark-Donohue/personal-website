@@ -7,11 +7,11 @@ const TECHNOLOGIES = [
   { name: "Java" },
   { name: "Spring Boot" },
   { name: "Python" },
-  { name: "Flask" },
+  { name: "GraphQL" },
   { name: "Docker" },
   { name: "TypeScript" },
-  { name: "Node.js" },
-  { name: "Express" },
+  { name: "Playwright" },
+  { name: "gRPC" },
 ];
 
 const About = () => {
